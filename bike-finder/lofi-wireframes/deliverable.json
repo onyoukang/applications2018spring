@@ -2,15 +2,23 @@
   "entrypoints" : [
     {
       "name" : "Home Page",
-      "file" : "main.html"
+      "file" : "main-1.html"
     },
     {
-      "name" : "Product List",
+      "name" : "Home Page Revised",
+      "file" : "main-2.html"
+    },
+    {
+      "name" : "List Page",
       "file" : "list.html"
     },
     {
-      "name" : "Product",
-      "file" : "product.html"
+      "name" : "Product Page",
+      "file" : "product-1.html"
+    },
+    {
+      "name" : "Product Page Revised",
+      "file" : "product-2.html"
     }
   ]
 }
