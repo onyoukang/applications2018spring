@@ -1,0 +1,580 @@
+html {
+	/*margin-top: 20px;
+	margin-left: 40px;*/
+	font-family: 'Roboto', sans-serif;
+}
+
+ul {
+	line-height: 1.5em;
+}
+
+a {
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+img {
+	width: 1440px;
+}
+
+body {
+	margin: 0;
+}
+
+
+.page {
+	width: 100%;
+	margin: auto;
+	position: relative;
+}
+
+.page img {
+	width: 100%;
+}
+
+.hotspot {
+	position: absolute;
+	display: block;
+	border: 3px solid none;
+	text-indent: -9999px;
+}
+
+body:active .hotspot {
+	background-color: rgba(255,192,203,0.5);
+}
+
+.logo {
+	top: 1.5%;
+	left: 38%;
+	width: 24%;
+	height: 5%;
+}
+
+.bike {
+	top: 8%;
+	left: 10%;
+	width: 6%;
+	height: 3%;
+}
+
+.bike2 {
+	top: 8%;
+	left: 27%;
+	width: 6%;
+	height: 3%;
+}
+
+.bike3{
+	top: 15%;
+	left: 7%;
+	width: 86%;
+	height: 21%;
+}
+
+.bike4 {
+	top: 46.5%;
+	left: 35.5%;
+	width: 57.5%;
+	height: 21%;
+}
+
+.logo2 {
+	top: 1%;
+	left: 38%;
+	width: 24%;
+	height: 5%;
+}
+
+.product {
+	top: 7%;
+	left: 10%;
+	width: 6%;
+	height: 2%;
+}
+
+.product2 {
+	top: 7%;
+	left: 27%;
+	width: 6%;
+	height: 2%;
+}
+
+.product3 {
+	top: 23%;
+	left: 21%;
+	width: 15%;
+	height: 13%;
+}
+
+.product4 {
+	top: 23%;
+	left: 37.5%;
+	width: 15%;
+	height: 13%;
+}
+
+.product5 {
+	top: 23%;
+	left: 54.5%;
+	width: 15%;
+	height: 13%;
+}
+
+.product6 {
+	top: 23%;
+	left: 71%;
+	width: 15%;
+	height: 13%;
+}
+
+.product7 {
+	top: 39.5%;
+	left: 21%;
+	width: 15%;
+	height: 13%;
+}
+
+.product8 {
+	top: 39.5%;
+	left: 37.5%;
+	width: 15%;
+	height: 13%;
+}
+
+.product9 {
+	top: 39.5%;
+	left: 54.5%;
+	width: 15%;
+	height: 13%;
+}
+
+.product10 {
+	top: 39.5%;
+	left: 71%;
+	width: 15%;
+	height: 13%;
+}
+
+.product11 {
+	top: 56.5%;
+	left: 21%;
+	width: 15%;
+	height: 13%;
+}
+
+.product12 {
+	top: 56.5%;
+	left: 37.5%;
+	width: 15%;
+	height: 13%;
+}
+
+.product13 {
+	top: 56.5%;
+	left: 54.5%;
+	width: 15%;
+	height: 13%;
+}
+
+.product14 {
+	top: 56.5%;
+	left: 71%;
+	width: 15%;
+	height: 13%;
+}
+
+.product15 {
+	top: 73%;
+	left: 21%;
+	width: 15%;
+	height: 13%;
+}
+
+.product16 {
+	top: 73%;
+	left: 37.5%;
+	width: 15%;
+	height: 13%;
+}
+
+.product17 {
+	top: 73%;
+	left: 54.5%;
+	width: 15%;
+	height: 13%;
+}
+
+.product18 {
+	top: 73%;
+	left: 71%;
+	width: 15%;
+	height: 13%;
+}
+
+.logo3 {
+	top: 1%;
+	left: 38%;
+	width: 24%;
+	height: 3%;
+}
+
+.list1-2 {
+	top: 5%;
+	left: 10%;
+	width: 6%;
+	height: 2%;
+}
+
+.list2-2 {
+	top: 5%;
+	left: 27%;
+	width: 6%;
+	height: 2%;
+}
+
+.description {
+	top: 33%;
+	left: 5%;
+	width: 13%;
+	height: 2%;
+}
+
+.qna {
+	top: 33%;
+	left: 20%;
+	width: 13%;
+	height: 2%;
+}
+
+.reviews {
+	top: 33%;
+	left: 37%;
+	width: 13%;
+	height: 2%;
+}
+
+.shipping {
+	top: 33%;
+	left: 56%;
+	width: 13%;
+	height: 2%;
+}
+
+.return {
+	top: 33%;
+	left: 73%;
+	width: 13%;
+	height: 2%;
+}
+
+.logo4 {
+	top: 2%;
+	left: 38%;
+	width: 24%;
+	height: 4%;
+}
+
+.list1-3 {
+	top: 8%;
+	left: 10%;
+	width: 6%;
+	height: 2%;
+}
+
+.list2-3 {
+	top: 8%;
+	left: 27%;
+	width: 6%;
+	height: 2%;
+}
+
+.description-2 {
+	top: 50%;
+	left: 5%;
+	width: 13%;
+	height: 2%;
+}
+
+.qna-2 {
+	top: 50%;
+	left: 20%;
+	width: 13%;
+	height: 2%;
+}
+
+.reviews-2 {
+	top: 50%;
+	left: 37%;
+	width: 13%;
+	height: 2%;
+}
+
+.shipping-2 {
+	top: 50%;
+	left: 56%;
+	width: 13%;
+	height: 2%;
+}
+
+.return-2 {
+	top: 50%;
+	left: 73%;
+	width: 13%;
+	height: 2%;
+}
+
+.logo5 {
+	top: 1.5%;
+	left: 38%;
+	width: 24%;
+	height: 4%;
+}
+
+.list1-4 {
+	top: 7%;
+	left: 10%;
+	width: 6%;
+	height: 2%;
+}
+
+.list2-4 {
+	top: 7%;
+	left: 27%;
+	width: 6%;
+	height: 2%;
+}
+
+.description-3 {
+	top: 44.5%;
+	left: 5%;
+	width: 13%;
+	height: 2%;
+}
+
+.qna-3 {
+	top: 44.5%;
+	left: 20%;
+	width: 13%;
+	height: 2%;
+}
+
+.reviews-3 {
+	top: 44.5%;
+	left: 37%;
+	width: 13%;
+	height: 2%;
+}
+
+.shipping-3 {
+	top: 44.5%;
+	left: 56%;
+	width: 13%;
+	height: 2%;
+}
+
+.return-3 {
+	top: 44.5%;
+	left: 73%;
+	width: 13%;
+	height: 2%;
+}
+
+.logo6 {
+	top: 2%;
+	left: 38%;
+	width: 24%;
+	height: 4%;
+}
+
+.list1-5 {
+	top: 8%;
+	left: 10%;
+	width: 6%;
+	height: 2.5%;
+}
+
+.list2-5 {
+	top: 8%;
+	left: 27%;
+	width: 6%;
+	height: 2.5%;
+}
+
+.description-4 {
+	top: 52%;
+	left: 5%;
+	width: 13%;
+	height: 2.5%;
+}
+
+.qna-4 {
+	top: 52%;
+	left: 20%;
+	width: 13%;
+	height: 2.5%;
+}
+
+.reviews-4 {
+	top: 52%;
+	left: 37%;
+	width: 13%;
+	height: 2.5%;
+}
+
+.shipping-4 {
+	top: 52%;
+	left: 56%;
+	width: 13%;
+	height: 2.5%;
+}
+
+.return-4 {
+	top: 52%;
+	left: 73%;
+	width: 13%;
+	height: 2.5%;
+}
+
+.logo7 {
+	top: 1.5%;
+	left: 38%;
+	width: 24%;
+	height: 4%;
+}
+
+.list1-6 {
+	top: 7%;
+	left: 10%;
+	width: 6%;
+	height: 2.5%;
+}
+
+.list2-6 {
+	top: 7%;
+	left: 27%;
+	width: 6%;
+	height: 2.5%;
+}
+
+.description-5 {
+	top: 46.5%;
+	left: 5%;
+	width: 13%;
+	height: 2.5%;
+}
+
+.qna-5 {
+	top: 46.5%;
+	left: 20%;
+	width: 13%;
+	height: 2.5%;
+}
+
+.reviews-5 {
+	top: 46.5%;
+	left: 37%;
+	width: 13%;
+	height: 2.5%;
+}
+
+.shipping-5 {
+	top: 46.5%;
+	left: 56%;
+	width: 13%;
+	height: 2.5%;
+}
+
+.return-5 {
+	top: 46.5%;
+	left: 73%;
+	width: 13%;
+	height: 2.5%;
+}
+
+.home {
+	top: 18.5%;
+	left: 2.5%;
+	width: 4%;
+	height: 2%;
+}
+
+.mtb {
+	top: 18.5%;
+	left: 12%;
+	width: 8%;
+	height: 2%;
+}
+
+.home-2 {
+	top: 8%;
+	left: 4%;
+	width: 4%;
+	height: 1%;
+}
+
+.mtb-2 {
+	top: 8%;
+	left: 13.5%;
+	width: 8%;
+	height: 1%;
+}
+
+.home-3 {
+	top: 12.3%;
+	left: 4%;
+	width: 4%;
+	height: 1.5%;
+}
+
+.mtb-3 {
+	top: 12.3%;
+	left: 13.5%;
+	width: 8%;
+	height: 1.5%;
+}
+
+.home-4 {
+	top: 11%;
+	left: 4%;
+	width: 4%;
+	height: 1.5%;
+}
+
+.mtb-4 {
+	top: 11%;
+	left: 13.5%;
+	width: 8%;
+	height: 1.5%;
+}
+
+.home-5 {
+	top: 13%;
+	left: 4%;
+	width: 4%;
+	height: 1.5%;
+}
+
+.mtb-5 {
+	top: 13%;
+	left: 13.5%;
+	width: 8%;
+	height: 1.5%;
+}
+
+.home-6 {
+	top: 11.5%;
+	left: 4%;
+	width: 4%;
+	height: 1.5%;
+}
+
+.mtb-6 {
+	top: 11.5%;
+	left: 13.5%;
+	width: 8%;
+	height: 1.5%;
+}
