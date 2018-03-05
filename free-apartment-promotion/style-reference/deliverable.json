@@ -7,6 +7,10 @@
     {
       "name" : "Reference 2",
       "file" : "style-2.html"
+    },
+    {
+      "name" : "Reference 3",
+      "file" : "style-3.html"
     }
   ]
 }
