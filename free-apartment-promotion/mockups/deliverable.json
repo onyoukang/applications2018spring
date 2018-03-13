@@ -1,0 +1,12 @@
+{
+  "entrypoints" : [
+    {
+      "name" : "desktop",
+      "file" : "index.html"
+    },
+    {
+      "name" : "mobile",
+      "file" : "mobile.html"
+    }
+  ]
+}
