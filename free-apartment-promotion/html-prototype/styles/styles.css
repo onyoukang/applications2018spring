@@ -1,9 +1,9 @@
 html {
 	overflow: hidden;
-	background-image: url("../images/background.jpg");
 }
 
 body {
+	background-image: url("../images/background.jpg");
 	margin: 0;
 	padding: 0;
 	height: 100%;

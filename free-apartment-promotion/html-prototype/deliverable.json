@@ -1,12 +1,8 @@
 {
   "entrypoints" : [
     {
-      "name" : "desktop",
+      "name" : "final",
       "file" : "index.html"
-    },
-    {
-      "name" : "mobile",
-      "file" : "mobile.html"
     }
   ]
 }
