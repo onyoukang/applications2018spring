@@ -1,0 +1,237 @@
+html {
+	overflow: hidden;
+	background-image: url("../images/background.jpg");
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	position: absolute;
+	top: 0%;
+}
+
+p {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #363e3d;
+	margin: 0;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	color: #363e3d;
+	text-align: center;
+	font-weight: 400;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	line-height: 0.1em;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	color: #363e3d;
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 3.4em;
+	line-height: 0.3em;
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+}
+
+a {
+	text-decoration: none;
+}
+
+.button1 {
+	border: 1px solid #363e3d;
+	padding-left: 14px;
+	padding-right: 14px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 1em;
+	position: fixed;
+	margin-left: 320px;
+	margin-top: 500px;
+}
+
+.text-color {
+	color: #363e3d;
+}
+
+.title-div {
+	position: fixed;
+	margin-top: 8%;
+	margin-left: 5%;
+}
+
+.door {
+	position: fixed;
+	width: 105%;
+	left: -2.5%;
+	bottom: 1%;
+}
+
+.brick {
+	position: fixed;
+	width: 110%;
+	bottom: 6%;
+	left: -5%;
+}
+
+.test {
+	position: fixed;
+	width: 100%; 
+	top: 400px;
+}
+
+.replacement {
+	position: fixed;
+	visibility: hidden;
+}
+
+.index-text {
+	margin-top: 30px;
+}
+
+.color {
+	color: #c2272e;
+}
+
+.button1:hover {
+	background-color: #c06971;
+	border: 1px solid #c06971;
+	transition: background-color 1s ease;
+}
+
+.text-color:hover {
+	color: white;
+	transition: color 1s ease;
+}
+
+/*desktop*/
+@media screen and (max-width: 1440px) and (max-height: 850px) {
+	body {
+		margin-left: 450px;
+	}
+
+	.title-div {
+		margin-top: 6%;
+	}
+
+	.test {
+		visibility: hidden;
+	}
+
+	.replacement {
+		visibility: visible;
+		position: fixed;
+		height: 430px;
+		top: 319px;
+	}
+
+	.button1 {
+		margin-left: 350px;
+		margin-top: 530px;
+	}	
+}	
+
+/*iPhone X*/
+@media screen and (max-width: 380px) and (max-height: 820px) {
+	body {
+		margin-left: 0px;
+	}
+
+	.title-div {
+		margin-top: 25%;
+		margin-left: 5%;
+	}	
+
+	.test {
+		visibility: visible;
+	}
+
+	.button1 {
+		margin-left: 290px;
+		margin-top: 580px;
+	}	
+
+	.replacement {
+		visibility: hidden;
+	}
+}	
+
+/*plus*/
+@media screen and (max-width: 415px) and (max-height: 740px) {
+	body {
+		margin-left: 0px;
+	}
+
+	h1 {
+		font-size: 1.5em;
+		line-height: 0.1em;
+	}
+
+	h2 {
+		font-size: 3.4em;
+		line-height: 0.3em;
+		letter-spacing: 0.03em;
+	}
+
+	.title-div {
+		margin-top: 10%;
+		margin-left: 11%;
+	}
+
+	.test {
+		top: 275px;
+		visibility: visible;
+	}
+
+	.button1 {
+		margin-left: 320px;
+		margin-top: 520px;
+	}
+
+	.replacement {
+		visibility: hidden;
+	}
+}
+
+/*regular*/
+@media screen and (max-width: 380px) and (max-height: 670px) {
+	body {
+		margin-left: 0px;
+	}
+
+	h1 {
+		font-size: 1.5em;
+		line-height: 0.1em;
+	}
+
+	h2 {
+		font-size: 3.4em;
+		line-height: 0.3em;
+		letter-spacing: 0.03em;
+	}
+
+	.title-div {
+		margin-top: 8%;
+		margin-left: 5%;
+	}
+
+	.test {
+		top: 250px;
+		visibility: visible;
+	}
+
+	.button1 {
+		margin-left: 290px;
+		margin-top: 470px;
+	}
+
+	.replacement {
+		visibility: hidden;
+	}
+}

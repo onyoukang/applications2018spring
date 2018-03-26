@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML Prototype</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:300,400,500" rel="stylesheet"> 
+		<link href="styles/styles-3.css" rel="stylesheet" type="text/css">
+	</head>
+	<body id="body">
+
+
+
+		<div class="index2-div">
+			<h2>Congratulations!</h2>
+
+			<p class="index2-text">You are eligible for the entry!</p>
+
+			<p class="index2-text2">Please enter the information below<br>
+			so that we can contact you regards the result.</p>
+		</div>
+
+		<form name="myForm" action="index-4.html" 
+		onsubmit="return validateForm()" method="post">
+			
+			<div class="inline">
+				<!-- First Name: <br>  -->
+				<input class="one" type="text" name="FirstName" required>
+				<!-- Last name: <br> -->
+				<input class="three" type="text" name="LastName" required><br>
+			</div>
+
+			<!-- Phone Number: <br> -->
+			<input class="two" type="text" name="PhoneNumber" required><br>
+
+			<input class="button" type="submit" value="submit">
+		</form>
+
+		<img class="brick1" src="images/image-3.png">
+		<img class="brick2" src="images/image-4.png">
+
+		<p class="first">First Name</p>
+		<p class="second">Last Name</p>
+		<p class="third">Phone Number</p>
+
+	</body>
+
+</html>
