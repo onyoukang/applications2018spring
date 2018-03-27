@@ -3,7 +3,8 @@
 	<head>
 		<title>HTML Prototype</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:300,400,500" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:300,400,500" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> 
 		<link href="styles/styles-2.css" rel="stylesheet" type="text/css">
 	</head>
 	<body id="body">
@@ -25,19 +26,47 @@
 
 		<!-- <a class="button1" href="index-3.html"><p>check eligibility</p></a> -->
 
-		<form name="myForm" action="index-3.html" method="post">
-			<input class="blank" type="email" name="fname" required>
+		<form name="myForm" method="get" id="form1" action="index-3.html">
+			<input class="blank" type="email" name="fname" id="emailInput" required>
 
 			<br>
 
-			<input class="button" type="submit" value="check eligibility">
+			<input class="button" type="submit" id="submit" value="check eligibility">
 		</form>
 
 		<img class="brick1" src="images/image-3.png">
 		<img class="brick2" src="images/image-4.png">
 
 		<script type="text/javascript">
-			
+			$(document).ready(function() {
+
+
+				$('#form1').submit(function(e) {
+					var valid = false;
+					valid = validateEmail($('#emailInput').val());
+
+					if(!valid) {
+						e.preventDefault();
+						return false;
+					}
+				});
+
+				function validateEmail(email) {
+				    var re = /^\s*[\w\-\+_]+(\.[\w\-\+_]+)*\@[\w\-\+_]+\.[\w\-\+_]+(\.[\w\-\+_]+)*\s*$/;
+				    if (re.test(email)) {
+				        if (email.indexOf('@wustl.edu', email.length - '@wustl.edu'.length) !== -1) {
+				            return true;
+				        } else {
+				            alert('Email must be a CE e-mail address (your.name@wustl.edu).');
+				            return false;
+				        }
+				    } else {
+				        alert('Not a valid e-mail address.');
+				        return false;
+				    }
+				}
+
+			});
 		</script>
 
 	</body>
