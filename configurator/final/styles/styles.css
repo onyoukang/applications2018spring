@@ -1,0 +1,228 @@
+html {
+	margin-top: 20px;
+	margin-left: 40px;
+	font-family: 'Roboto', sans-serif;
+	background-color: #e8dbd1;
+}
+
+.closet {
+	width: 1000px;
+	margin-top: 50px;
+}
+
+.mannequin {
+	width: 200px;
+	position: absolute;
+	top: 150px;
+	right: 150px;
+}
+
+.jacket {
+	width: 200px;
+	position: absolute;
+	top: 150px;
+	right: 150px;
+}
+
+.pants {
+	width: 125.81px;
+	position: absolute;
+	top: 364px;
+	right: 185px;
+}
+
+.shirt {
+	width: 50.3242px;
+	position: absolute;
+	top: 150px;
+	right: 229px;
+}
+
+.tie {
+	width: 50.3242px;
+	position: absolute;
+	top: 150px;
+	right: 229px;
+}
+
+.shoes {
+	width: 117.7691px;
+	position: absolute;
+	top: 686px;
+	right: 185px;
+}
+
+#tie-1 {
+	width: 21.314px;
+	position: absolute;
+	top: 210px;
+	left: 634px;
+}
+
+#tie-2 {
+	width: 21.314px;
+	position: absolute;
+	top: 214px;
+	left: 655px;
+}
+
+#tie-3 {
+	width: 24.4227px;
+	position: absolute;
+	top: 212px;
+	left: 674px;
+}
+
+#tie-4 {
+	width: 25.75488px;
+	position: absolute;
+	top: 211px;
+	left: 695px;
+}
+
+#jacket-1 {
+	width: 75.9325px;
+	position: absolute;
+	top: 469px;
+	left: 622px;
+}
+
+#jacket-2 {
+	width: 79.485px;
+	position: absolute;
+	top: 455px;
+	left: 670px;
+}
+
+#jacket-3 {
+	width: 79.485px;
+	position: absolute;
+	top: 458px;
+	left: 715px;
+}
+
+#jacket-4 {
+	width: 95.4707px;
+	position: absolute;
+	top: 461px;
+	left: 754px;
+}
+
+#jacket-5 {
+	width: 100.3552px;
+	position: absolute;
+	top: 457px;
+	left: 799px;
+}
+
+#shoes-1 {
+	width: 60.16874px;
+	position: absolute;
+	top: 315px;
+	left: 502px;
+}
+
+#shoes-2 {
+	width: 60.16874px;
+	position: absolute;
+	top: 315px;
+	left: 562px;
+}
+
+#shoes-3 {
+	width: 60.16874px;
+	position: absolute;
+	top: 359px;
+	left: 500px;
+}
+
+#shoes-4 {
+	width: 60.16874px;
+	position: absolute;
+	top: 359px;
+	left: 562px;
+}
+
+#shoes-5 {
+	width: 60.16874px;
+	position: absolute;
+	top: 402px;
+	left: 499px;
+}
+
+#shoes-6 {
+	width: 62.611px;
+	position: absolute;
+	top: 403px;
+	left: 558px;
+}
+
+#pants-1 {
+	width: 28.197px;
+	position: absolute;
+	top: 399px;
+	left: 860px;
+}
+
+#pants-2 {
+	width: 50.1776px;
+	position: absolute;
+	top: 400px;
+	left: 882px;
+}
+
+#pants-3 {
+	width: 45.293px;
+	position: absolute;
+	top: 403px;
+	left: 905px;
+}
+
+#pants-4 {
+	width: 45.5151px;
+	position: absolute;
+	top: 403px;
+	left: 925px;
+}
+
+#pants-5 {
+	width: 47.5133px;
+	position: absolute;
+	top: 394px;
+	left: 945px;
+}
+
+#shirt-1 {
+	width: 57.5044px;
+	position: absolute;
+	top: 450px;
+	left: 123px;
+}
+
+#shirt-2 {
+	width: 68.1616px;
+	position: absolute;
+	top: 453px;
+	left: 146px;
+}
+
+#shirt-3 {
+	width: 71.4920px;
+	position: absolute;
+	top: 452px;
+	left: 169px;
+}
+
+#shirt-4 {
+	width: 60.1687px;
+	position: absolute;
+	top: 452px;
+	left: 209px;
+}
+
+#shirt-5 {
+	width: 39.7425px;
+	position: absolute;
+	top: 461px;
+	left: 243px;
+}
